@@ -50,6 +50,7 @@ const HeroContent = () => {
             src='/mainIconsdark.svg'
             height={650}
             width={650}
+            alt='main icon'
             />
         </motion.div>
     </motion.div>
