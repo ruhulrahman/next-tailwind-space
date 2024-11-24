@@ -28,10 +28,11 @@ const Navbar = () => {
             <div className="flex md:flex-wrap md:gap-5 sm:gap-3">
                 {
                     Socials.map(item => (
-                        <a href={item.link} key={item.name} target='_blank' className={`${item.bgColor} rounded-full p-[5px]`}>
+                        <a href={item.link} key={item.name} title={item.name} target='_blank' className={`bg-[#57368C] border border-[#7042f861] rounded-full p-[5px]`}>
                             <Image
                             src={item.src}
                             alt={item.name}
+                            key={item.name}
                             width={24}
                             height={24}
                         />
