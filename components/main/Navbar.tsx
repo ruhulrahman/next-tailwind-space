@@ -14,7 +14,7 @@ const Navbar = () => {
                 height={70}
                 className='cursor-pointer animate-spin hover:animate-pulse'
                 />
-                <span className="font-bold ml-[10px] hidden md:block text-gray-300">WebChain Dev</span>
+                <span className="font-bold ml-[10px] hidden md:block text-gray-300">Portfolio of Ruhul Amin</span>
             </a>
 
             <div className="h-full w-[500px] flex flex-row items-center justify-between md:mr-20">
@@ -25,16 +25,18 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className="flex flex-row gap-5">
+            <div className="flex md:flex-wrap md:gap-5 sm:gap-3">
                 {
                     Socials.map(item => (
-                        <Image
+                        <a href={item.link} target='_blank' className={`${item.bgColor} rounded-full p-[5px]`}>
+                            <Image
                             src={item.src}
                             alt={item.name}
                             key={item.name}
                             width={24}
                             height={24}
                         />
+                        </a>
                     ))
                 }
             </div>

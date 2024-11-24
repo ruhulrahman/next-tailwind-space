@@ -82,17 +82,41 @@ export const Skill_data = [
 
 export const Socials = [
     {
-        name: "Discord",
-        src: "/instagram.svg",
+        name: "LinkedIn",
+        src: "/linkedin.svg",
+        link: "https://www.linkedin.com/in/ruhul14",
+        bgColor: "bg-white",
+    },
+    {
+        name: "Github",
+        src: "/github.svg",
+        link: "https://github.com/ruhulrahman",
+        bgColor: "bg-white",
+    },
+    {
+        name: "Youtube",
+        src: "/youtube.svg",
+        link: "https://www.youtube.com/@RuhulAmin1402",
+        bgColor: "bg-white",
     },
     {
         name: "Facebook",
         src: "/facebook.svg",
+        link: "https://www.facebook.com/Ruhul14.02",
+        bgColor: "bg-[#2d6fff]",
     },
-    {
-        name: "Instagram",
-        src: "/discord.svg",
-    },
+    // {
+    //     name: "Instagram",
+    //     src: "/instagram.svg",
+    //     link: "link",
+    //     bgColor: "bg-[#ff2d6c]",
+    // },
+    // {
+    //     name: "Discord",
+    //     src: "/discord.svg",
+    //     link: "link",
+    //     bgColor: "bg-white",
+    // },
 ];
 
 export const Frontend_skill = [
