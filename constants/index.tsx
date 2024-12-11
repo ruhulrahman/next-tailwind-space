@@ -54,7 +54,7 @@ export const Skill_data = [
         height: 80,
     },
     {
-        skill_name: "Java Script",
+        skill_name: "JavaScript",
         Image: "/js.png",
         width: 65,
         height: 65,
@@ -87,19 +87,19 @@ export const Skill_data = [
 ];
 export const Frontend_skill = [
     {
-        skill_name: "React",
+        skill_name: "React.js",
         Image: "/react.png",
         width: 80,
         height: 80,
     },
     {
-        skill_name: "Redux",
+        skill_name: "Redux.js",
         Image: "/redux.png",
         width: 80,
         height: 80,
     },
     {
-        skill_name: "Next js 14",
+        skill_name: "Next.js",
         Image: "/next.png",
         width: 80,
         height: 80,
@@ -135,7 +135,7 @@ export const Frontend_skill = [
         height: 50,
     },
     {
-        skill_name: "Type Script",
+        skill_name: "TypeScript",
         Image: "/ts.png",
         width: 80,
         height: 80,
@@ -162,7 +162,7 @@ export const Backend_skill = [
         height: 70,
     },
     {
-        skill_name: "Spring Boot",
+        skill_name: "Spring Boot Framework",
         Image: "/spring-boot.png",
         width: 70,
         height: 70,
@@ -174,19 +174,19 @@ export const Backend_skill = [
         height: 50,
     },
     {
-        skill_name: "Laravel",
+        skill_name: "Laravel Framework",
         Image: "/laravel.png",
         width: 50,
         height: 50,
     },
     {
-        skill_name: "Node js",
+        skill_name: "Node.js",
         Image: "/node-js.png",
         width: 80,
         height: 80,
     },
     {
-        skill_name: "Express js",
+        skill_name: "Express.js Framework",
         Image: "/express.png",
         width: 80,
         height: 80,
