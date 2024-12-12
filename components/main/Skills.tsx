@@ -32,13 +32,13 @@ const Skills = () => {
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {
           Skill_data.map((item, index) => (
-            <div className='flex flex-col items-center justify-center'>
+            <div key={index} className='flex flex-col items-center justify-center'>
               <SkillsDataProvider
-                key={index}
                 src={item.Image}
-                height={item.height}
                 width={item.width}
+                height={item.height}
                 index={index}
+                title={item.skill_name}
               />
               <span className='text-white'>{item.skill_name}</span>
             </div>
@@ -49,13 +49,13 @@ const Skills = () => {
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {
           Frontend_skill.map((item, index) => (
-            <div className='flex flex-col items-center justify-center'>
+            <div key={index} className='flex flex-col items-center justify-center'>
               <SkillsDataProvider
-                key={index}
                 src={item.Image}
-                height={item.height}
                 width={item.width}
+                height={item.height}
                 index={index}
+                title={item.skill_name}
               />
               <span className='text-white'>{item.skill_name}</span>
             </div>
@@ -66,13 +66,13 @@ const Skills = () => {
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {
           Backend_skill.map((item, index) => (
-            <div className='flex flex-col items-center justify-center'>
+            <div key={index} className='flex flex-col items-center justify-center'>
               <SkillsDataProvider
-                key={index}
                 src={item.Image}
-                height={item.height}
                 width={item.width}
+                height={item.height}
                 index={index}
+                title={item.skill_name}
               />
               <span className='text-white'>{item.skill_name}</span>
             </div>
@@ -83,13 +83,13 @@ const Skills = () => {
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {
           Databases.map((item, index) => (
-            <div className='flex flex-col items-center justify-center'>
+            <div key={index} className='flex flex-col items-center justify-center'>
               <SkillsDataProvider
-                key={index}
                 src={item.Image}
-                height={item.height}
                 width={item.width}
+                height={item.height}
                 index={index}
+                title={item.skill_name}
               />
               <span className='text-white'>{item.skill_name}</span>
             </div>
@@ -100,13 +100,13 @@ const Skills = () => {
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {
           Full_stack.map((item, index) => (
-            <div className='flex flex-col items-center justify-center'>
+            <div key={index} className='flex flex-col items-center justify-center'>
               <SkillsDataProvider
-                key={index}
                 src={item.Image}
-                height={item.height}
                 width={item.width}
+                height={item.height}
                 index={index}
+                title={item.skill_name}
               />
               <span className='text-white'>{item.skill_name}</span>
             </div>
@@ -116,14 +116,14 @@ const Skills = () => {
 
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {
-          Other_skill.map((item, index) => (
-            <div className='flex flex-col items-center justify-center'>
+          Other_skill  && Other_skill.length > 0 && Other_skill.map((item, index) => (
+            <div key={index} className='flex flex-col items-center justify-center'>
               <SkillsDataProvider
-                key={index}
                 src={item.Image}
-                height={item.height}
                 width={item.width}
+                height={item.height}
                 index={index}
+                title={item.skill_name}
               />
               <span className='text-white'>{item.skill_name}</span>
             </div>
@@ -134,13 +134,13 @@ const Skills = () => {
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {
           Editor_skill.map((item, index) => (
-            <div className='flex flex-col items-center justify-center'>
+            <div key={index} className='flex flex-col items-center justify-center'>
               <SkillsDataProvider
-                key={index}
                 src={item.Image}
-                height={item.height}
                 width={item.width}
+                height={item.height}
                 index={index}
+                title={item.skill_name}
               />
               <span className='text-white'>{item.skill_name}</span>
             </div>
