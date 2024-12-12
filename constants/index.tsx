@@ -1,3 +1,9 @@
+type SkillType = {
+    skill_name: string;
+    Image: string;
+    width: number;
+    height: number;
+  };
 
 
 export const Socials = [
@@ -40,7 +46,7 @@ export const Socials = [
 ];
 
 
-export const Skill_data = [
+export const Skill_data: SkillType[] = [
     {
         skill_name: "Html 5",
         Image: "/html.png",
@@ -85,7 +91,7 @@ export const Skill_data = [
     },
 
 ];
-export const Frontend_skill = [
+export const Frontend_skill: SkillType[] = [
     {
         skill_name: "React.js",
         Image: "/react.png",
@@ -154,7 +160,7 @@ export const Frontend_skill = [
     // },
 ];
 
-export const Backend_skill = [
+export const Backend_skill: SkillType[] = [
     {
         skill_name: "Java",
         Image: "/java.png",
@@ -205,7 +211,7 @@ export const Backend_skill = [
     // },
 ];
 
-export const Databases = [
+export const Databases: SkillType[] = [
     {
         skill_name: "Postger SQL",
         Image: "/postger.png",
@@ -233,7 +239,7 @@ export const Databases = [
 
 ];
 
-export const Full_stack = [
+export const Full_stack: SkillType[] = [
     // {
     //     skill_name: "React Native",
     //     Image: "/ReactNative .png",
@@ -279,7 +285,7 @@ export const Full_stack = [
 
 ];
 
-export const Other_skill = [
+export const Other_skill: SkillType[] = [
     // {
     //     skill_name: "Go",
     //     Image: "/go.png",
@@ -288,7 +294,7 @@ export const Other_skill = [
     // },
 ];
 
-export const Editor_skill = [
+export const Editor_skill: SkillType[] = [
     {
         skill_name: "Intellij IDEA",
         Image: "/intellij.png",
