@@ -11,13 +11,13 @@ const SkillText = () => {
                 variants={slideInFromTop}
                 className='Welcome-box py-[8px] px-[4px] border-[#7042f88b] opacity-[0.9]'>
                 <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
-                <h1 className='Welcome-text text-[13px]'>Think better with Next.js 14</h1>
+                <h1 className='Welcome-text text-[19px]'>Making app with modern technologies</h1>
             </motion.div>
 
             <motion.div
             variants={slideInFromLeft(0.5)}
-            className='text-[30px] text-white font-medium mt-[10px] text-center'>
-                Making app with modern technologies
+            className='text-[40px] font-semibold mt-[10px] text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
+                My Skills
             </motion.div>
 
             <motion.div

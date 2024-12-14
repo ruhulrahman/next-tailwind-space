@@ -1,8 +1,6 @@
 'use client'
 
 import { Backend_skill, Databases, Editor_skill, Frontend_skill, Full_stack, Other_skill, Skill_data } from '@/constants';
-import { slideInFromLeft } from '@/utils/motion';
-import { motion } from 'framer-motion';
 import SkillsDataProvider from '../sub/SkillsDataProvider';
 import SkillText from '../sub/SkillText';
 
@@ -14,11 +12,11 @@ const Skills = () => {
 
 
 
-      <motion.div
+      {/* <motion.div
         variants={slideInFromLeft(0.8)}
         className='text-lg text-gray-400 my-5 max-w-[600px]'>
         I am a Full Stack Software Engineer with experience in Website, Mobile, and Software development. Check out my skills
-      </motion.div>
+      </motion.div> */}
       {/* <motion.div
         variants={slideInFromLeft(1)}
         className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
