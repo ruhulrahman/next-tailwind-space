@@ -162,18 +162,6 @@ export const Frontend_skill: SkillType[] = [
 
 export const Backend_skill: SkillType[] = [
     {
-        skill_name: "Java",
-        Image: "/java.png",
-        width: 70,
-        height: 70,
-    },
-    {
-        skill_name: "Spring Boot Framework",
-        Image: "/spring-boot.png",
-        width: 70,
-        height: 70,
-    },
-    {
         skill_name: "PHP",
         Image: "/php.png",
         width: 50,
@@ -184,6 +172,18 @@ export const Backend_skill: SkillType[] = [
         Image: "/laravel.png",
         width: 50,
         height: 50,
+    },
+    {
+        skill_name: "Java",
+        Image: "/java.png",
+        width: 70,
+        height: 70,
+    },
+    {
+        skill_name: "Spring Boot Framework",
+        Image: "/spring-boot.png",
+        width: 70,
+        height: 70,
     },
     {
         skill_name: "Node.js",
