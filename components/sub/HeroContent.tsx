@@ -60,7 +60,7 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px]'>
                     <p className='font-semibold text-[25px]'>Hi, I am <span className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500'>Ruhul Amin</span>.</p>
-                    <p className='text-justify'>I am a Full Stack Software Engineer specializing in backend technologies like PHP, Laravel, Java, Spring Boot, Node.js, and Express.js, as well as frontend frameworks including Vue.js, React.js, Next.js, Nuxt.js, Quasar Framework and Bootstrap, Tailwind CSS for responsive UI design. With a proven track record of delivering robust solutions for government, educational, financial, and HR projects, I combine technical expertise with a passion for clean, scalable code. Whether crafting enterprise systems or intuitive user experiences, I ensure every project achieves the best results.
+                    <p className='text-justify'>I am a Full Stack Software Engineer with 7+ years of experiences specializing in backend technologies like PHP, Laravel, Java, Spring Boot, Node.js, and Express.js, as well as frontend frameworks including Vue.js, React.js, Next.js, Nuxt.js, Quasar Framework and Bootstrap, Tailwind CSS for responsive UI design. With a proven track record of delivering robust solutions for government, educational, financial, and HR projects, I combine technical expertise with a passion for clean, scalable code. Whether crafting enterprise systems or intuitive user experiences, I ensure every project achieves the best results.
                         Let’s build something impactful together.</p>
                 </motion.div>
 
