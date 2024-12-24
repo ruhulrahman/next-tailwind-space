@@ -213,12 +213,6 @@ export const Backend_skill: SkillType[] = [
 
 export const Databases: SkillType[] = [
     {
-        skill_name: "Postger SQL",
-        Image: "/postger.png",
-        width: 70,
-        height: 70,
-    },
-    {
         skill_name: "MySQL",
         Image: "/mysql.png",
         width: 70,
@@ -229,6 +223,12 @@ export const Databases: SkillType[] = [
         Image: "/mongodb.png",
         width: 40,
         height: 40,
+    },
+    {
+        skill_name: "Postger SQL",
+        Image: "/postger.png",
+        width: 70,
+        height: 70,
     },
     {
         skill_name: "Fire base",
@@ -253,6 +253,12 @@ export const Full_stack: SkillType[] = [
     //     height: 70,
     // },
     {
+        skill_name: "Git",
+        Image: "/git.png",
+        width: 70,
+        height: 70,
+    },
+    {
         skill_name: "Jira",
         Image: "/jira.png",
         width: 70,
@@ -261,12 +267,6 @@ export const Full_stack: SkillType[] = [
     {
         skill_name: "Trello",
         Image: "/trello.png",
-        width: 70,
-        height: 70,
-    },
-    {
-        skill_name: "Git",
-        Image: "/git.png",
         width: 70,
         height: 70,
     },
@@ -296,14 +296,14 @@ export const Other_skill: SkillType[] = [
 
 export const Editor_skill: SkillType[] = [
     {
-        skill_name: "Intellij IDEA",
-        Image: "/intellij.png",
+        skill_name: "Visual Studio Code",
+        Image: "/vs-code.png",
         width: 70,
         height: 70,
     },
     {
-        skill_name: "Visual Studio Code",
-        Image: "/vs-code.png",
+        skill_name: "Intellij IDEA",
+        Image: "/intellij.png",
         width: 70,
         height: 70,
     },
