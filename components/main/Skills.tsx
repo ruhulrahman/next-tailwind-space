@@ -27,7 +27,7 @@ const Skills = () => {
         <Button className='bg-[#57368C] border border-[#7042f861] rounded-full p-[5px] text-white'>Hover me</Button>
       </Tooltip> */}
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-end">
         {
           Skill_data.map((item, index) => (
             <div key={index} className='flex flex-col items-center justify-center'>
@@ -44,7 +44,7 @@ const Skills = () => {
         }
       </div>
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-end">
         {
           Frontend_skill.map((item, index) => (
             <div key={index} className='flex flex-col items-center justify-center'>
@@ -61,7 +61,7 @@ const Skills = () => {
         }
       </div>
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-end">
         {
           Backend_skill.map((item, index) => (
             <div key={index} className='flex flex-col items-center justify-center'>
@@ -78,7 +78,7 @@ const Skills = () => {
         }
       </div>
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-end">
         {
           Databases.map((item, index) => (
             <div key={index} className='flex flex-col items-center justify-center'>
@@ -95,7 +95,7 @@ const Skills = () => {
         }
       </div>
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-end">
         {
           Full_stack.map((item, index) => (
             <div key={index} className='flex flex-col items-center justify-center'>
@@ -112,7 +112,7 @@ const Skills = () => {
         }
       </div>
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-end">
         {
           Other_skill  && Other_skill.length > 0 && Other_skill.map((item, index) => (
             <div key={index} className='flex flex-col items-center justify-center'>
