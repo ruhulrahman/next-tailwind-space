@@ -93,6 +93,24 @@ export const Skill_data: SkillType[] = [
 ];
 export const Frontend_skill: SkillType[] = [
     {
+        skill_name: "Vue.js",
+        Image: "/vue.png",
+        width: 50,
+        height: 50,
+    },
+    {
+        skill_name: "Nuxt.js",
+        Image: "/nuxt.png",
+        width: 50,
+        height: 50,
+    },
+    {
+        skill_name: "Quasar Framework",
+        Image: "/quasar.svg",
+        width: 50,
+        height: 50,
+    },
+    {
         skill_name: "React.js",
         Image: "/react.png",
         width: 80,
@@ -122,24 +140,6 @@ export const Frontend_skill: SkillType[] = [
     //     width: 80,
     //     height: 80,
     // },
-    {
-        skill_name: "Vue.js",
-        Image: "/vue.png",
-        width: 50,
-        height: 50,
-    },
-    {
-        skill_name: "Nuxt.js",
-        Image: "/nuxt.png",
-        width: 50,
-        height: 50,
-    },
-    {
-        skill_name: "Quasar Framework",
-        Image: "/quasar.svg",
-        width: 50,
-        height: 50,
-    },
     {
         skill_name: "TypeScript",
         Image: "/ts.png",
