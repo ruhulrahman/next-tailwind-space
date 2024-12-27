@@ -13,6 +13,7 @@ const Projects = () => {
         {projectList.map((item, index) => (
           <ProjectCards
             key={index}
+            id={item.id}
             src={item.image}
             title={item.title}
             description={item.description}

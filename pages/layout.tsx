@@ -20,12 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-[#040016]`}>
-        <StarsCanvas />
-        <Navbar />
-        <div className='z-[55]'>
-          {children}
-        </div>
-        <Footer />
+        <StarsCanvas/>
+        <Navbar/>
+        {children}
+        <Footer/>
       </body>
     </html>
   )
