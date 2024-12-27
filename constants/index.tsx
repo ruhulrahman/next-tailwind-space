@@ -449,6 +449,13 @@ export const projectList = [
         skills: "Laravel · Sanctum · PHP · Bootstrap-Vue · Vue.js · Vuex",
         link: "",
     },
+    {
+        title: "Store Management",
+        description: "I contributed to the development of an inventory application as part of a team. This system enabled our organization to efficiently store, distribute, procure, and manage equipment and products, facilitating seamless operations.",
+        image: "",
+        skills: "Vue.js · Vuetify · Vuex · Laravel · MySQL",
+        link: "",
+    },
 ]
 
 
