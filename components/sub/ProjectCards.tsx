@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 interface Props {
   id: number
@@ -43,9 +42,9 @@ const ProjectCards = ({ id, src, title, description, link, skills }: Props) => {
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className='mt-2 text-gray-200 text-justify'>
           {truncateText(description)}{' '}
-          <Link href={`/project/${id}`} className="text-blue-500 hover:underline">
+          {/* <Link href={`/project/${id}`} className="text-blue-500 hover:underline">
             Read More
-          </Link>
+          </Link> */}
         </p>
         <p className="mt-2 text-cyan-400 text-justify">Skills: {skills}</p>
       </div>
