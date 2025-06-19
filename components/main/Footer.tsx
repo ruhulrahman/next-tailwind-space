@@ -13,11 +13,11 @@ const Footer = () => {
                 <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start  z-[22]">
                         <div className='font-bold text-[16px] text-gradient'>Community</div>
-                        <a href='https://www.youtube.com/@RuhulAmin1402' title={'Youtube'} target='_blank' className={`flex flex-row items-center my-[15px] cursor-pointer hover:text-[#b49bff]`}>
+                        <a href='https://www.youtube.com/@ruhulcreates' title={'Youtube'} target='_blank' className={`flex flex-row items-center my-[15px] cursor-pointer hover:text-[#b49bff]`}>
                             <FaYoutube />
                             <span className='text-[15px] ml-[6px]'>Youtube</span>
                         </a>
-                        <a href='https://www.youtube.com/@RuhulAmin1402' title={'Github'} target='_blank' className={`flex flex-row items-center my-[15px] cursor-pointer hover:text-[#b49bff]`}>
+                        <a href='https://github.com/ruhulrahman' title={'Github'} target='_blank' className={`flex flex-row items-center my-[15px] cursor-pointer hover:text-[#b49bff]`}>
                             <RxGithubLogo />
                             <span className='text-[15px] ml-[6px]'>Github</span>
                         </a>
@@ -29,7 +29,7 @@ const Footer = () => {
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[22]">
                         <div className='font-bold text-[16px] text-gradient'>Social Media</div>
 
-                        <a href='https://www.facebook.com/Ruhul14.02' title={'Facebook'} target='_blank' className={`flex flex-row items-center my-[15px] cursor-pointer hover:text-[#b49bff]`}>
+                        <a href='https://www.facebook.com/ruhulcreates/' title={'Facebook'} target='_blank' className={`flex flex-row items-center my-[15px] cursor-pointer hover:text-[#b49bff]`}>
                             <FaFacebook />
                             <span className='text-[15px] ml-[6px]'>Facebook</span>
                         </a>

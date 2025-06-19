@@ -22,13 +22,13 @@ export const Socials = [
     {
         name: "Youtube",
         src: "/youtube.svg",
-        link: "https://www.youtube.com/@RuhulAmin1402",
+        link: "https://www.youtube.com/@ruhulcreates",
         bgColor: "bg-white",
     },
     {
         name: "Facebook",
         src: "/facebook.svg",
-        link: "https://www.facebook.com/Ruhul14.02",
+        link: "https://www.facebook.com/ruhulcreates/",
         bgColor: "bg-[#2d6fff]",
     },
     // {
@@ -485,6 +485,22 @@ export const projectList: ProjectType[] = [
         skills: "Vue.js · Vuetify · Vuex · Laravel · MySQL",
         link: "",
     },
+    {
+        id: 21,
+        title: "Contract Management",
+        description: "I collaborated with a team to create a contract management system. This system provided a user-friendly interface for managing contracts, ensuring efficient project execution and cost control.",
+        image: "",
+        skills: "Nest.js · MySQL",
+        link: "",
+    },
+    {
+        id: 22,
+        title: "OMS V2",
+        description: "I collaborated with a team to create a contract management system. This system provided a user-friendly interface for managing contracts, ensuring efficient project execution and cost control.",
+        image: "",
+        skills: "Next.js · TailwindCSS · Nest.js · MySQL",
+        link: "",
+    }
 ]
 
 
