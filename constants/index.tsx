@@ -152,12 +152,18 @@ export const Frontend_skill: SkillType[] = [
     //     width: 80,
     //     height: 80,
     // },
-    // {
-    //     skill_name: "React Query",
-    //     Image: "/reactquery.png",
-    //     width: 80,
-    //     height: 80,
-    // },
+    {
+        skill_name: "Tanstack/React Query",
+        Image: "/tanstack.png",
+        width: 80,
+        height: 80,
+    },
+    {
+        skill_name: "Cypress Testing",
+        Image: "/cypress.svg",
+        width: 140,
+        height: 140,
+    },
 ];
 
 export const Backend_skill: SkillType[] = [
@@ -192,8 +198,26 @@ export const Backend_skill: SkillType[] = [
         height: 80,
     },
     {
+        skill_name: "Nest.js Framework",
+        Image: "/nest.svg",
+        width: 80,
+        height: 80,
+    },
+    {
         skill_name: "Express.js Framework",
         Image: "/express.png",
+        width: 80,
+        height: 80,
+    },
+    {
+        skill_name: "Prisma ORM",
+        Image: "/prisma-orm.jpg",
+        width: 80,
+        height: 80,
+    },
+    {
+        skill_name: "Swagger",
+        Image: "/swagger.png",
         width: 80,
         height: 80,
     },
@@ -213,6 +237,18 @@ export const Backend_skill: SkillType[] = [
 
 export const Databases: SkillType[] = [
     {
+        skill_name: "Web Socket",
+        Image: "/web-socket.png",
+        width: 80,
+        height: 80,
+    },
+    {
+        skill_name: "Payment Gateway",
+        Image: "/payment-gateway.png",
+        width: 80,
+        height: 80,
+    },
+    {
         skill_name: "MySQL",
         Image: "/mysql.png",
         width: 80,
@@ -227,6 +263,18 @@ export const Databases: SkillType[] = [
     {
         skill_name: "Postger SQL",
         Image: "/postger.png",
+        width: 80,
+        height: 80,
+    },
+    {
+        skill_name: "Redis",
+        Image: "/redis.webp",
+        width: 80,
+        height: 80,
+    },
+    {
+        skill_name: "Indexed db",
+        Image: "/indexeddb.png",
         width: 80,
         height: 80,
     },
@@ -257,6 +305,12 @@ export const Full_stack: SkillType[] = [
         Image: "/git.png",
         width: 80,
         height: 80,
+    },
+    {
+        skill_name: "CD/CD",
+        Image: "/cd-cd1.png",
+        width: 120,
+        height: 120,
     },
     {
         skill_name: "Jira",
