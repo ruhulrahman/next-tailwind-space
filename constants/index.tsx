@@ -388,12 +388,28 @@ export const projectList: ProjectType[] = [
         link: "https://ruhul-portfolio-next.vercel.app",
     },
     {
+        id: 22,
+        title: "OMS V2",
+        description: "Developed a full-stack office management platform using Next.js 15, Nest.js (backend), TailwindCSS 4, Zustand (state management), TanStack Query (data fetching), and TanStack Table (advanced data grids), Web Socket (Realtime Notification and dashboard). • Implemented authentication / authorization with NextAuth.js, role - based access control, and secure API integration via Axios.",
+        image: "/projects/oms-v2/1.png",
+        skills: "Next.js · TailwindCSS · Nest.js · Zustand · Swagger · Tanstack · WebSocket · Redis · TypeScript · IndexDB · MySQL",
+        link: "https://oms.studypress.org/sign-in",
+    },
+    {
+        id: 21,
+        title: "Contract Management",
+        description: "I collaborated with a team to create a contract management system. This system provided a user-friendly interface for managing contracts, ensuring efficient project execution and cost control.",
+        image: "",
+        skills: "Nest.js · MySQL",
+        link: "",
+    },
+    {
         id: 2,
         title: "Apartment Rent Management",
         description: "This is a house and apartment management system. House owners register and include their houses and apartment unit. Add their tenant with full information and rent. It’s an ongoing project.",
         image: "/projects/rentmate/1.jpg",
         skills: "Vue.js · Bulma (CSS Framework) · Pinia · Laravel · Tailwind CSS · Nuxt.js · TypeScript · Laravel Passport · OAuth 2.0",
-        link: "",
+        link: "https://www.flatman.app",
     },
     {
         id: 3,
@@ -465,7 +481,7 @@ export const projectList: ProjectType[] = [
         description: "OMS is office management system. Through this application office can set interview process by sending email to interviewers and interviewee. Interviewers can distribute their marks for indivisual candidate and finally recruited a candidate. Every employee attendance management and leave application. Task assigns for employee. Invoice create for service etc",
         image: "/projects/oms/1.png",
         skills: "Vue.js · Vuex · Laravel · Boostrap-vue · MySQL · Sanctum · Invoicing · Generate PDF",
-        link: "https://oms.studypress.org",
+        link: "https://revinr.studypress.org",
     },
     {
         id: 12,
@@ -539,22 +555,6 @@ export const projectList: ProjectType[] = [
         skills: "Vue.js · Vuetify · Vuex · Laravel · MySQL",
         link: "",
     },
-    {
-        id: 21,
-        title: "Contract Management",
-        description: "I collaborated with a team to create a contract management system. This system provided a user-friendly interface for managing contracts, ensuring efficient project execution and cost control.",
-        image: "",
-        skills: "Nest.js · MySQL",
-        link: "",
-    },
-    {
-        id: 22,
-        title: "OMS V2",
-        description: "I collaborated with a team to create a contract management system. This system provided a user-friendly interface for managing contracts, ensuring efficient project execution and cost control.",
-        image: "",
-        skills: "Next.js · TailwindCSS · Nest.js · MySQL",
-        link: "",
-    }
 ]
 
 
