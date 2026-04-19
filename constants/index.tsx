@@ -393,7 +393,7 @@ export const projectList: ProjectType[] = [
         description: "Developed a full-stack office management platform using Next.js 15, Nest.js (backend), TailwindCSS 4, Zustand (state management), TanStack Query (data fetching), and TanStack Table (advanced data grids), Web Socket (Realtime Notification and dashboard). • Implemented authentication / authorization with NextAuth.js, role - based access control, and secure API integration via Axios.",
         image: "/projects/erp/1.png",
         skills: "Next.js · TailwindCSS · Nest.js · Zustand · Swagger · Tanstack · WebSocket · Redis · TypeScript · IndexDB · MySQL",
-        link: "https://erp.studypress.org/sign-in",
+        link: "https://erp.studypress.org",
     },
     {
         id: 21,
