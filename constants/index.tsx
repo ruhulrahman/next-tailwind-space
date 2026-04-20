@@ -10,7 +10,7 @@ export const Socials = [
     {
         name: "LinkedIn",
         src: "/linkedin.svg",
-        link: "https://www.linkedin.com/in/ruhul14",
+        link: "https://www.linkedin.com/in/ruhulcreates",
         bgColor: "bg-white",
     },
     {
