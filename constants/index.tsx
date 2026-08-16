@@ -393,7 +393,7 @@ export const projectList: ProjectType[] = [
         description: "This project is a comprehensive platform designed to connect the Bangladeshi diaspora with opportunities and resources in Bangladesh. It serves as a bridge to facilitate communication, collaboration, and engagement between the diaspora community and various sectors in Bangladesh, including business, education, culture, and social initiatives. The platform offers features such as networking opportunities, information sharing, event management, and resource access to empower the diaspora in contributing to the development and growth of Bangladesh.",
         image: "/projects/bridge2bd/1.png",
         skills: "Next.js · TailwindCSS · Zustand · IndexDB · Tanstack · WebSocket · Nest.js · Swagger · Redis · TypeScript · PostgreSQL · MongoDB · Microservices · gRPC · RabbitMQ · Kafka · Docker· CI/CD",
-        link: "https://bridge2bd.studypress.org",
+        link: "https://bridgetobd.org",
     },
     {
         id: 22,
@@ -401,7 +401,7 @@ export const projectList: ProjectType[] = [
         description: "Developed a full-stack office management platform using Next.js 15, Nest.js (backend), TailwindCSS 4, Zustand (state management), TanStack Query (data fetching), and TanStack Table (advanced data grids), Web Socket (Realtime Notification and dashboard). • Implemented authentication / authorization with NextAuth.js, role - based access control, and secure API integration via Axios.",
         image: "/projects/erp/1.png",
         skills: "Next.js · TailwindCSS · Nest.js · Zustand · Swagger · Tanstack · WebSocket · Redis · TypeScript · IndexDB · MySQL",
-        link: "https://erp.studypress.org",
+        link: "https://sanzio.app",
     },
     {
         id: 21,
